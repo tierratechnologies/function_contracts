@@ -3,7 +3,7 @@
 
 package pubsub_lgbkgenlic_v1
 
-var lgbkgenlicV1Topic = "generate_logbook_licence_v1"
+var Topic = "generate_logbook_licence_v1"
 
 type GenerateLogbookLicenceMsgV1 struct {
 	UserId         string `json:"userId"`
