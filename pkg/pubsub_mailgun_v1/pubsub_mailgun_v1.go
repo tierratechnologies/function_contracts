@@ -8,5 +8,5 @@ type SendEmailMsgV1 struct {
 	To      string `json:"to"`
 	From    string `json:"from"`
 	Subject string `json:"subject"`
-	Message string `json:"message"`
+	Text    string `json:"message"`
 }
