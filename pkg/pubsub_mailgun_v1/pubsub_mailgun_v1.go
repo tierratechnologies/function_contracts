@@ -2,7 +2,7 @@ package pubsub_mailgun_v1
 
 var Topic = "send_email_v1"
 
-type GenerateLogbookLicenceMsgV1 struct {
+type SendEmailMsgV1 struct {
 	Topic string `json:"topic"`
 
 	To      string `json:"to"`
