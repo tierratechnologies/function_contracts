@@ -14,15 +14,15 @@ const (
 	PersonIndex SearchIndex = "PERSON"
 )
 
-type AlgoliaIndexMngrData struct {
+type SearchData struct {
 	Topic     string        `json:"topic"`
 	ObjectId  string        `json:"objectId"`
 	IndexName SearchIndex   `json:"indexName"`
 	Action    PerformAction `json:"action"`
-	Data      interface{}   `json:"data"`
 }
 
 type PersonSearchData struct {
+	SearchData
 	FirstName    string `json:"firstName"`
 	FamilyName   string `json:"familyName"`
 	EmailAddress string `json:"emailAddress"`
