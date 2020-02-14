@@ -21,10 +21,14 @@ type SearchData struct {
 	Action    PerformAction `json:"action,omitempty"`
 }
 
-type PersonSearchData struct {
-	SearchData
+type PersonData struct {
 	FirstName    string `json:"firstName,omitempty"`
 	FamilyName   string `json:"familyName,omitempty"`
 	EmailAddress string `json:"emailAddress,omitempty"`
 	UID          string `json:"uid,omitempty"`
+}
+
+type PersonSearchData struct {
+	SearchData
+	PersonData
 }
