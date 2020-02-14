@@ -23,5 +23,8 @@ type PSAlgoliaIndexMngrWriteV1 struct {
 }
 
 type PersonSearchDataV1 struct {
-	FirstName string `json:"first_name`
+	FirstName    string `json:"first_name`
+	FamilyName   string `json:"family_name"`
+	EmailAddress string `json:"email_address"`
+	uid          string `json:"uid"`
 }
