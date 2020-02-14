@@ -16,12 +16,12 @@ const (
 
 type SearchData struct {
 	Topic     string        `json:"topic,omitempty"`
-	ObjectId  string        `json:"objectId,omitempty"`
 	IndexName SearchIndex   `json:"indexName,omitempty"`
 	Action    PerformAction `json:"action,omitempty"`
 }
 
 type PersonData struct {
+	ObjectId     string `json:"objectId,omitempty"`
 	FirstName    string `json:"firstName,omitempty"`
 	FamilyName   string `json:"familyName,omitempty"`
 	EmailAddress string `json:"emailAddress,omitempty"`
