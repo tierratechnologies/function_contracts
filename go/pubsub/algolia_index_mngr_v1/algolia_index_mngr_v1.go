@@ -23,7 +23,7 @@ type AlgoliaIndexMngrData struct {
 }
 
 type PersonSearchData struct {
-	FirstName    string `json:"firstName`
+	FirstName    string `json:"firstName"`
 	FamilyName   string `json:"familyName"`
 	EmailAddress string `json:"emailAddress"`
 	uid          string `json:"uid"`
