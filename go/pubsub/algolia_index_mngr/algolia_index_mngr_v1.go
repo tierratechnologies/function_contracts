@@ -8,7 +8,9 @@ type SearchIndex string
 const (
 	WriteAction  PerformAction = "write"
 	DeleteAction PerformAction = "delete"
+)
 
+const (
 	PersonIndex SearchIndex = "PERSON"
 )
 
