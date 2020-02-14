@@ -1,4 +1,4 @@
-package algolia_index_mngr
+package algolia_index_mngr_v1
 
 var Topic = "algolia_index_mngr_v1"
 
