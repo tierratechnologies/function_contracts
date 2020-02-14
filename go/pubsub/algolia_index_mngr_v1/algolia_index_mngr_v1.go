@@ -14,7 +14,7 @@ const (
 	PersonIndex SearchIndex = "PERSON"
 )
 
-type PSAlgoliaIndexMngrWriteV1 struct {
+type AlgoliaIndexMngrData struct {
 	Topic     string        `json:"topic"`
 	ObjectId  string        `json:"objectId"`
 	IndexName SearchIndex   `json:"indexName"`
@@ -22,7 +22,7 @@ type PSAlgoliaIndexMngrWriteV1 struct {
 	Data      interface{}   `json:"data"`
 }
 
-type PersonSearchDataV1 struct {
+type PersonSearchData struct {
 	FirstName    string `json:"first_name`
 	FamilyName   string `json:"family_name"`
 	EmailAddress string `json:"email_address"`
