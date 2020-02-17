@@ -21,7 +21,7 @@ type SearchData struct {
 }
 
 type PersonData struct {
-	ObjectId     string `json:"objectId,omitempty"`
+	ObjectId     string `json:"objectID,omitempty"`
 	FirstName    string `json:"firstName,omitempty"`
 	FamilyName   string `json:"familyName,omitempty"`
 	EmailAddress string `json:"emailAddress,omitempty"`
