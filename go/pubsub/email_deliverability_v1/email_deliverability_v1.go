@@ -1,4 +1,4 @@
-package algolia_index_mngr_v1
+package email_deliverability_v1
 
 var Topic = "email_deliverability_v1"
 
