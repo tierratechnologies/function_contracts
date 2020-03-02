@@ -2,7 +2,7 @@ package transation_email_v1
 
 var Topic = "email_deliverability_v1"
 
-type EmailDeliverabilityData struct {
+type TransactionEmailData struct {
 	Topic        string      `json:"topic,omitempty"`
 	TemplateName string      `json:"templateName,omitempty"`
 	To           string      `json:"to,omitempty"`
