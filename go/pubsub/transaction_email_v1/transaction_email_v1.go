@@ -1,6 +1,6 @@
-package transation_email_v1
+package transaction_email_v1
 
-var Topic = "email_deliverability_v1"
+var Topic = "transaction_email_v1"
 
 type TransactionEmailData struct {
 	Topic        string                 `json:"topic,omitempty"`
