@@ -1,6 +1,6 @@
-package pubsub_mailgun_v1
+package pubsub_transaction_email_v1
 
-var Topic = "send_email_v1"
+var Topic = "pubsub_transaction_email_v1"
 
 type SendEmailMsgV1 struct {
 	Topic                string `json:"topic"`
