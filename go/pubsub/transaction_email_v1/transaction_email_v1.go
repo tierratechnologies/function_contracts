@@ -10,4 +10,5 @@ type TransactionEmailData struct {
 	Subject      string                 `json:"subject,omitempty"`
 	TestMode     bool                   `json:"testMode"`
 	Variables    map[string]interface{} `json:"variables"`
+	FSEmailPath  string                 `json:"fs_email_path"` // the path where the transaction email data  is located
 }
