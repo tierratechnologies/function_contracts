@@ -21,11 +21,13 @@ type SearchData struct {
 }
 
 type PersonData struct {
-	ObjectId     string `json:"objectID,omitempty"`
-	FirstName    string `json:"firstName,omitempty"`
-	FamilyName   string `json:"familyName,omitempty"`
-	EmailAddress string `json:"emailAddress,omitempty"`
-	UID          string `json:"uid,omitempty"`
+	ObjectId            string `json:"objectID,omitempty"`
+	FirstName           string `json:"firstName,omitempty"`
+	FamilyName          string `json:"familyName,omitempty"`
+	EmailAddress        string `json:"emailAddress,omitempty"`
+	DriverLicenceNumber string `json:"driverLicenceNumber,omitempty"`
+	TSLNumber           string `json:"tslNumber,omitempty"`
+	UID                 string `json:"uid,omitempty"`
 }
 
 type PersonSearchData struct {
